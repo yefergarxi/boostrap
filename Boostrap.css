@@ -1,0 +1,45 @@
+.navbar-brand{color:blue;
+  font-size: 50px;
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 557;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 1,
+    "ELSH" 46.4,
+    "ELXP" 31;
+}
+/* Fondo del navbar */
+.navbar {
+    background-color: black !important;
+}
+
+/* Links del menú (Inicio, Quienes somos, etc.) */
+.navbar .nav-link {
+    color: white !important;
+}
+
+
+/* Dropdown menu fondo */
+.dropdown-menu {
+    background-color: black !important;
+}
+
+/* Links dentro del dropdown */
+.dropdown-item {
+    color: white !important;
+}
+
+/* Hover en los links del dropdown */
+.dropdown-item:hover {
+    background-color: #333 !important;
+    color: white !important;
+}
+body{background-color: ghostwhite;}
+
+.card{background-color: grey;}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
