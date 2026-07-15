@@ -27,7 +27,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Servicios
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -37,12 +37,12 @@
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link disabled" aria-disabled="true">contactanos</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <button class="btn btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
   </div>
@@ -137,6 +137,226 @@
 </div>
 
 </section>
+
+  <section class="formulario py-5 mt-5">
+  <div class="container">
+    <div
+      style="
+        max-width: 1600px;
+        margin: 0 auto;
+        border: 1px solid rgba(255,255,255,0.25);
+        border-radius: 16px;
+        padding: 2.5rem 2rem;
+        background: rgba(255,255,255,0.05);
+        backdrop-filter: blur(6px);
+      "
+    >
+      
+      <div class="text-center mb-4">
+        <h1 class="text-white fw-bold mb-1" style="font-size: 1.8rem;">
+          &gt; Trabajemos Juntos
+        </h1>
+        <h2 class="mb-0" style="font-size: 1.1rem; color: rgba(255,255,255,0.6); font-weight: 400;">
+          &gt; Contáctanos
+        </h2>
+      </div>
+
+      <!-- Separador decorativo -->
+      <div style="height: 1px; background: linear-gradient(to right, transparent, rgba(255,255,255,0.3), transparent); margin-bottom: 1.8rem;"></div>
+
+      
+      <div class="mb-3">
+        <label
+          for="exampleFormControlInput1"
+          class="form-label text-white"
+          style="font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.8;"
+        >
+          
+        </label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="nombre@ejemplo.com"
+          style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 8px;"
+        />
+      </div>
+
+      
+      <div class="mb-4">
+        <label
+          for="exampleFormControlTextarea1"
+          class="form-label text-white"
+          style="font-size: 0.85rem; letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.8;"
+        >
+          Escribe una recomendación para mejorar
+        </label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+          style="background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.2); color: white; border-radius: 8px; resize: none;"
+        ></textarea>
+      </div>
+
+      
+      <div class="d-grid">
+        <button
+          type="button"
+          class="btn"
+          style="background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.35); color: white; border-radius: 8px; padding: 0.6rem; letter-spacing: 0.05em;"
+        >
+          enviar
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <style>
+  .ft-root { background: #111; font-family: Georgia, serif; padding: 2rem; }
+  .ft-banner {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    display: flex; align-items: center; justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+  .ft-card { text-align: center; max-width: 420px; width: 100%; }
+  .ft-card h2 { font-size: 2rem; font-weight: 700; color: #fff; margin: 0 0 1.2rem; font-family: Georgia, serif; }
+  .ft-btn {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.35);
+    color: #fff;
+    padding: 0.75rem 2rem; border-radius: 8px;
+    font-size: 0.9rem; letter-spacing: 0.03em;
+    text-decoration: none; font-family: sans-serif;
+    cursor: pointer;
+  }
+  .ft-main {
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 16px;
+    background: rgba(255,255,255,0.04);
+    overflow: hidden;
+  }
+  .ft-links {
+    padding: 2.5rem 2rem 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  .ft-col-title {
+    font-size: 0.75rem; font-weight: 700;
+    letter-spacing: 0.12em; text-transform: uppercase;
+    color: rgba(255,255,255,0.5); margin: 0 0 1rem;
+    font-family: sans-serif;
+  }
+  .ft-col a {
+    display: block; font-size: 0.9rem;
+    color: rgba(255,255,255,0.85); text-decoration: none;
+    margin-bottom: 0.55rem; font-family: sans-serif;
+  }
+  .ft-col a:hover { color: #fff; }
+  .ft-newsletter p {
+    font-size: 0.88rem; color: rgba(255,255,255,0.65);
+    line-height: 1.6; margin: 0 0 0.8rem; font-family: sans-serif;
+  }
+  .ft-sub-link {
+    font-size: 0.88rem; color: #fff;
+    font-weight: 600; text-decoration: underline;
+    display: block; margin-bottom: 1.2rem;
+    font-family: sans-serif; cursor: pointer;
+  }
+  .ft-social { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .ft-social-label {
+    font-size: 0.75rem; font-weight: 700;
+    letter-spacing: 0.1em; text-transform: uppercase;
+    color: rgba(255,255,255,0.5); font-family: sans-serif;
+  }
+  .ft-social a { color: #fff; font-size: 1.2rem; text-decoration: none; }
+  .ft-social a:hover { color: rgba(255,255,255,0.7); }
+  .ft-bottom {
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding: 1rem 2rem;
+    display: flex; align-items: center; justify-content: space-between;
+    flex-wrap: wrap; gap: 0.5rem;
+  }
+  .ft-copy { font-size: 0.82rem; color: rgba(255,255,255,0.45); font-family: sans-serif; }
+  .ft-payments { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .ft-pay {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 4px; padding: 3px 10px;
+    font-size: 0.7rem; font-weight: 700;
+    color: rgba(255,255,255,0.75); font-family: sans-serif;
+    letter-spacing: 0.04em;
+  }
+</style>
+  
+
+<footer class="ft-root">
+  
+  <div class="ft-main">
+    <div class="ft-links">
+
+      
+      <div class="ft-col">
+        <p class="ft-col-title">Servicios</p>
+        <a href="#">Inicio</a>
+        <a href="#">Portafolio</a>
+        <a href="#">Proyectos</a>
+        <a href="#">Tecnología</a>
+        <a href="#">Soporte</a>
+      </div>
+
+      
+      <div class="ft-col">
+        <p class="ft-col-title">Nosotros</p>
+        <a href="#">Quiénes somos</a>
+        <a href="#">Valores</a>
+        <a href="#">Únete al equipo</a>
+        <a href="#">Blog</a>
+      </div>
+
+      
+      <div class="ft-col">
+        <p class="ft-col-title">Información</p>
+        <a href="#">Contáctanos</a>
+        <a href="#">Términos de uso</a>
+        <a href="#">Política de privacidad</a>
+      </div>
+
+      
+      <div class="ft-col ft-newsletter">
+        <p class="ft-col-title">Mantente al día</p>
+        <p>Sé el primero en conocer novedades, eventos y actualizaciones de nuestro equipo.</p>
+        <span class="ft-sub-link">Suscríbete al boletín</span>
+        <div class="ft-social">
+          <span class="ft-social-label">Síguenos</span>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+    
+    <div class="ft-bottom">
+      <span class="ft-copy">© 2025 · YEFERINK. Todos los derechos reservados.</span>
+      <div class="ft-payments">
+        <span class="ft-pay">VISA</span>
+        <span class="ft-pay">Mastercard</span>
+        <span class="ft-pay">PSE</span>
+        <span class="ft-pay">Nequi</span>
+        <span class="ft-pay">Daviplata</span>
+      </div>
+    </div>
+  </div>
+
+</footer>
  
     
 
